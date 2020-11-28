@@ -9,8 +9,8 @@ class HomeController extends  controller
      public function about()
      {
       $name = 'yamamah hosen';
-      $job = 'Bilgisayar Mühendisi';
-      $city = 'hatay';
+      $job = 'ICT Engineer';
+      $city = 'hatay/antakya';
   return view('about', compact('name', 'job', 'city'));
     //}
 }}

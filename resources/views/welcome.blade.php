@@ -81,7 +81,9 @@
                 <div class="title m-b-md">
                     welcome antep
                 </div>
-
+<div class="links">
+    <a href="{{url('about')}}" style="color:darkgoldenrod;font-size: 20px;">CLICK HERE TO GO ABOUT ME</a>
+</div>
                 <!--<div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
