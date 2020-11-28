@@ -1,0 +1,1 @@
+<h1>yamamah about {{$name}}<br> {{$job}} <br> {{$city}}</h1>
