@@ -16,4 +16,5 @@ Route::get('/', function () {
 });
 
  Route::get('/about','HomeController@about');
-
+Route::get('/product','HomeController@product1');
+Route::get('/info','HomeController@bring_info');

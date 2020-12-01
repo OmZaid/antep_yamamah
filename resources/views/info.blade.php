@@ -26,16 +26,18 @@
 <table>
     <tr>
         <th>name</th>
-        <th>email</th>
-        <th>password</th>
+        <th>product</th>
+        <th>price</th>
     </tr>
-    @foreach ($users as $user)
+    @foreach ($info as $information)
 
-    <tr>
-        <td>{{$user->name}}</td>
-        <td>{{$user->email}}</td>
-        <td>{{$user->password}}</td>
-    </tr>
+        <tr>
+            <td>{{ $information->email}}</td>
+            <td>{{ $information->name}}</td>
+            <td>{{ $information->price}}</td>
+
+
+        </tr>
 
     @endforeach
 </table>
